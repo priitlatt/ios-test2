@@ -77,9 +77,9 @@
 		387029421DE479500008D573 = {
 			isa = PBXGroup;
 			children = (
-				3870294D1DE479500008D573 /* ios-test2 */,
-				387029621DE479500008D573 /* ios-test2Tests */,
-				3870296D1DE479500008D573 /* ios-test2UITests */,
+				3870294D1DE479500008D573 /* banaan */,
+				387029621DE479500008D573 /* banaanTests */,
+				3870296D1DE479500008D573 /* banaanUITests */,
 				3870294C1DE479500008D573 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3870294D1DE479500008D573 /* ios-test2 */ = {
+		3870294D1DE479500008D573 /* banaan */ = {
 			isa = PBXGroup;
 			children = (
 				3870294E1DE479500008D573 /* AppDelegate.swift */,
@@ -104,24 +104,27 @@
 				387029571DE479500008D573 /* LaunchScreen.storyboard */,
 				3870295A1DE479500008D573 /* Info.plist */,
 			);
+			name = banaan;
 			path = "ios-test2";
 			sourceTree = "<group>";
 		};
-		387029621DE479500008D573 /* ios-test2Tests */ = {
+		387029621DE479500008D573 /* banaanTests */ = {
 			isa = PBXGroup;
 			children = (
 				387029631DE479500008D573 /* ios_test2Tests.swift */,
 				387029651DE479500008D573 /* Info.plist */,
 			);
+			name = banaanTests;
 			path = "ios-test2Tests";
 			sourceTree = "<group>";
 		};
-		3870296D1DE479500008D573 /* ios-test2UITests */ = {
+		3870296D1DE479500008D573 /* banaanUITests */ = {
 			isa = PBXGroup;
 			children = (
 				3870296E1DE479500008D573 /* ios_test2UITests.swift */,
 				387029701DE479500008D573 /* Info.plist */,
 			);
+			name = banaanUITests;
 			path = "ios-test2UITests";
 			sourceTree = "<group>";
 		};
