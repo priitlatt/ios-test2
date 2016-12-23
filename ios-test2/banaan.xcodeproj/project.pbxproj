@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3870294B1DE479500008D573 /* ios-test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-test2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3870294B1DE479500008D573 /* banaan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banaan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3870294E1DE479500008D573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387029501DE479500008D573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		387029531DE479500008D573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		387029551DE479500008D573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387029581DE479500008D573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3870295A1DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3870295F1DE479500008D573 /* ios-test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-test2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3870295F1DE479500008D573 /* banaanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banaanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387029631DE479500008D573 /* ios_test2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_test2Tests.swift; sourceTree = "<group>"; };
 		387029651DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3870296A1DE479500008D573 /* ios-test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-test2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3870296A1DE479500008D573 /* banaanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banaanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3870296E1DE479500008D573 /* ios_test2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_test2UITests.swift; sourceTree = "<group>"; };
 		387029701DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		3870294C1DE479500008D573 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3870294B1DE479500008D573 /* ios-test2.app */,
-				3870295F1DE479500008D573 /* ios-test2Tests.xctest */,
-				3870296A1DE479500008D573 /* ios-test2UITests.xctest */,
+				3870294B1DE479500008D573 /* banaan.app */,
+				3870295F1DE479500008D573 /* banaanTests.xctest */,
+				3870296A1DE479500008D573 /* banaanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3870294A1DE479500008D573 /* ios-test2 */ = {
+		3870294A1DE479500008D573 /* banaan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 387029731DE479500008D573 /* Build configuration list for PBXNativeTarget "ios-test2" */;
+			buildConfigurationList = 387029731DE479500008D573 /* Build configuration list for PBXNativeTarget "banaan" */;
 			buildPhases = (
 				387029471DE479500008D573 /* Sources */,
 				387029481DE479500008D573 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "ios-test2";
+			name = banaan;
 			productName = "ios-test2";
-			productReference = 3870294B1DE479500008D573 /* ios-test2.app */;
+			productReference = 3870294B1DE479500008D573 /* banaan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3870295E1DE479500008D573 /* ios-test2Tests */ = {
+		3870295E1DE479500008D573 /* banaanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 387029761DE479500008D573 /* Build configuration list for PBXNativeTarget "ios-test2Tests" */;
+			buildConfigurationList = 387029761DE479500008D573 /* Build configuration list for PBXNativeTarget "banaanTests" */;
 			buildPhases = (
 				3870295B1DE479500008D573 /* Sources */,
 				3870295C1DE479500008D573 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				387029611DE479500008D573 /* PBXTargetDependency */,
 			);
-			name = "ios-test2Tests";
+			name = banaanTests;
 			productName = "ios-test2Tests";
-			productReference = 3870295F1DE479500008D573 /* ios-test2Tests.xctest */;
+			productReference = 3870295F1DE479500008D573 /* banaanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		387029691DE479500008D573 /* ios-test2UITests */ = {
+		387029691DE479500008D573 /* banaanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 387029791DE479500008D573 /* Build configuration list for PBXNativeTarget "ios-test2UITests" */;
+			buildConfigurationList = 387029791DE479500008D573 /* Build configuration list for PBXNativeTarget "banaanUITests" */;
 			buildPhases = (
 				387029661DE479500008D573 /* Sources */,
 				387029671DE479500008D573 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				3870296C1DE479500008D573 /* PBXTargetDependency */,
 			);
-			name = "ios-test2UITests";
+			name = banaanUITests;
 			productName = "ios-test2UITests";
-			productReference = 3870296A1DE479500008D573 /* ios-test2UITests.xctest */;
+			productReference = 3870296A1DE479500008D573 /* banaanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 387029461DE479500008D573 /* Build configuration list for PBXProject "ios-test2" */;
+			buildConfigurationList = 387029461DE479500008D573 /* Build configuration list for PBXProject "banaan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3870294A1DE479500008D573 /* ios-test2 */,
-				3870295E1DE479500008D573 /* ios-test2Tests */,
-				387029691DE479500008D573 /* ios-test2UITests */,
+				3870294A1DE479500008D573 /* banaan */,
+				3870295E1DE479500008D573 /* banaanTests */,
+				387029691DE479500008D573 /* banaanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		387029611DE479500008D573 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3870294A1DE479500008D573 /* ios-test2 */;
+			target = 3870294A1DE479500008D573 /* banaan */;
 			targetProxy = 387029601DE479500008D573 /* PBXContainerItemProxy */;
 		};
 		3870296C1DE479500008D573 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3870294A1DE479500008D573 /* ios-test2 */;
+			target = 3870294A1DE479500008D573 /* banaan */;
 			targetProxy = 3870296B1DE479500008D573 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,7 +418,7 @@
 				DEVELOPMENT_TEAM = T44NESVEFN;
 				INFOPLIST_FILE = "ios-test2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenhouseci.banaan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,7 +431,7 @@
 				DEVELOPMENT_TEAM = T44NESVEFN;
 				INFOPLIST_FILE = "ios-test2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenhouseci.banaan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -448,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-test2.app/ios-test2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banaan.app/banaan";
 			};
 			name = Debug;
 		};
@@ -463,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-test2.app/ios-test2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banaan.app/banaan";
 			};
 			name = Release;
 		};
@@ -498,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		387029461DE479500008D573 /* Build configuration list for PBXProject "ios-test2" */ = {
+		387029461DE479500008D573 /* Build configuration list for PBXProject "banaan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				387029711DE479500008D573 /* Debug */,
@@ -507,29 +507,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		387029731DE479500008D573 /* Build configuration list for PBXNativeTarget "ios-test2" */ = {
+		387029731DE479500008D573 /* Build configuration list for PBXNativeTarget "banaan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				387029741DE479500008D573 /* Debug */,
 				387029751DE479500008D573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		387029761DE479500008D573 /* Build configuration list for PBXNativeTarget "ios-test2Tests" */ = {
+		387029761DE479500008D573 /* Build configuration list for PBXNativeTarget "banaanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				387029771DE479500008D573 /* Debug */,
 				387029781DE479500008D573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		387029791DE479500008D573 /* Build configuration list for PBXNativeTarget "ios-test2UITests" */ = {
+		387029791DE479500008D573 /* Build configuration list for PBXNativeTarget "banaanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3870297A1DE479500008D573 /* Debug */,
 				3870297B1DE479500008D573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

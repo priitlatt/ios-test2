@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3870294A1DE479500008D573"
-               BuildableName = "ios-test2.app"
-               BlueprintName = "ios-test2"
-               ReferencedContainer = "container:ios-test2.xcodeproj">
+               BuildableName = "banaan.app"
+               BlueprintName = "banaan"
+               ReferencedContainer = "container:banaan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3870295E1DE479500008D573"
-               BuildableName = "ios-test2Tests.xctest"
-               BlueprintName = "ios-test2Tests"
-               ReferencedContainer = "container:ios-test2.xcodeproj">
+               BuildableName = "banaanTests.xctest"
+               BlueprintName = "banaanTests"
+               ReferencedContainer = "container:banaan.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "387029691DE479500008D573"
-               BuildableName = "ios-test2UITests.xctest"
-               BlueprintName = "ios-test2UITests"
-               ReferencedContainer = "container:ios-test2.xcodeproj">
+               BuildableName = "banaanUITests.xctest"
+               BlueprintName = "banaanUITests"
+               ReferencedContainer = "container:banaan.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3870294A1DE479500008D573"
-            BuildableName = "ios-test2.app"
-            BlueprintName = "ios-test2"
-            ReferencedContainer = "container:ios-test2.xcodeproj">
+            BuildableName = "banaan.app"
+            BlueprintName = "banaan"
+            ReferencedContainer = "container:banaan.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3870294A1DE479500008D573"
-            BuildableName = "ios-test2.app"
-            BlueprintName = "ios-test2"
-            ReferencedContainer = "container:ios-test2.xcodeproj">
+            BuildableName = "banaan.app"
+            BlueprintName = "banaan"
+            ReferencedContainer = "container:banaan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3870294A1DE479500008D573"
-            BuildableName = "ios-test2.app"
-            BlueprintName = "ios-test2"
-            ReferencedContainer = "container:ios-test2.xcodeproj">
+            BuildableName = "banaan.app"
+            BlueprintName = "banaan"
+            ReferencedContainer = "container:banaan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
