@@ -1,15 +1,15 @@
 //
-//  ios_test2Tests.swift
-//  ios-test2Tests
+//  banaanTests.swift
+//  banaanTests
 //
 //  Created by Priit Latt on 22/11/16.
 //  Copyright © 2016 GreenhouseCI. All rights reserved.
 //
 
 import XCTest
-@testable import ios_test2
+@testable import banaan
 
-class ios_test2Tests: XCTestCase {
+class banaanTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

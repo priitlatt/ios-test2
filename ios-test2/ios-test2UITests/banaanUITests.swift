@@ -1,6 +1,6 @@
 //
-//  ios_test2UITests.swift
-//  ios-test2UITests
+//  banaanUITests.swift
+//  banaanUITests
 //
 //  Created by Priit Latt on 22/11/16.
 //  Copyright © 2016 GreenhouseCI. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ios_test2UITests: XCTestCase {
+class banaanUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -12,8 +12,8 @@
 		387029541DE479500008D573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387029521DE479500008D573 /* Main.storyboard */; };
 		387029561DE479500008D573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387029551DE479500008D573 /* Assets.xcassets */; };
 		387029591DE479500008D573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387029571DE479500008D573 /* LaunchScreen.storyboard */; };
-		387029641DE479500008D573 /* ios_test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387029631DE479500008D573 /* ios_test2Tests.swift */; };
-		3870296F1DE479500008D573 /* ios_test2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870296E1DE479500008D573 /* ios_test2UITests.swift */; };
+		387029641DE479500008D573 /* banaanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387029631DE479500008D573 /* banaanTests.swift */; };
+		3870296F1DE479500008D573 /* banaanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870296E1DE479500008D573 /* banaanUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		387029581DE479500008D573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3870295A1DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3870295F1DE479500008D573 /* banaanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banaanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		387029631DE479500008D573 /* ios_test2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_test2Tests.swift; sourceTree = "<group>"; };
+		387029631DE479500008D573 /* banaanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = banaanTests.swift; sourceTree = "<group>"; };
 		387029651DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3870296A1DE479500008D573 /* banaanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banaanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3870296E1DE479500008D573 /* ios_test2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_test2UITests.swift; sourceTree = "<group>"; };
+		3870296E1DE479500008D573 /* banaanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = banaanUITests.swift; sourceTree = "<group>"; };
 		387029701DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 		387029621DE479500008D573 /* banaanTests */ = {
 			isa = PBXGroup;
 			children = (
-				387029631DE479500008D573 /* ios_test2Tests.swift */,
+				387029631DE479500008D573 /* banaanTests.swift */,
 				387029651DE479500008D573 /* Info.plist */,
 			);
 			name = banaanTests;
@@ -121,7 +121,7 @@
 		3870296D1DE479500008D573 /* banaanUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3870296E1DE479500008D573 /* ios_test2UITests.swift */,
+				3870296E1DE479500008D573 /* banaanUITests.swift */,
 				387029701DE479500008D573 /* Info.plist */,
 			);
 			name = banaanUITests;
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387029641DE479500008D573 /* ios_test2Tests.swift in Sources */,
+				387029641DE479500008D573 /* banaanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3870296F1DE479500008D573 /* ios_test2UITests.swift in Sources */,
+				3870296F1DE479500008D573 /* banaanUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
