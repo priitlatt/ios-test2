@@ -1,2 +1,1 @@
-MASTER: [![Nevercode build status](https://app.nevercode.io/api/projects/df6e077f-426b-433b-b4b4-3b6a52438c5c/workflows/a63ec577-62e3-404a-a463-91aaec688afc/status_badge.svg?branch=master&style=shields)](https://app.nevercode.io/#/project/df6e077f-426b-433b-b4b4-3b6a52438c5c/workflow/a63ec577-62e3-404a-a463-91aaec688afc/latestBuild?branch=master)
-
+[![Nevercode build status](https://app-staging.nevercode.io/api/projects/22a968f5-9f8a-4266-9219-8e2c230ca2e7/workflows/5bcb4c8c-ff30-495c-85f5-08a0e5d5940a/status_badge2.svg?branch=master)](https://app-staging.nevercode.io/#/project/22a968f5-9f8a-4266-9219-8e2c230ca2e7/workflow/5bcb4c8c-ff30-495c-85f5-08a0e5d5940a/latestBuild?branch=master)
