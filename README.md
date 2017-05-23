@@ -1,5 +1,1 @@
-[![Nevercode build status](https://app-staging.nevercode.io/api/projects/22a968f5-9f8a-4266-9219-8e2c230ca2e7/workflows/5bcb4c8c-ff30-495c-85f5-08a0e5d5940a/status_badge2.svg?branch=master)](https://app-staging.nevercode.io/#/project/22a968f5-9f8a-4266-9219-8e2c230ca2e7/workflow/5bcb4c8c-ff30-495c-85f5-08a0e5d5940a/latestBuild?branch=master)
-
-===============
-
-[![Nevercode build status](https://app-staging.nevercode.io/api/projects/22a968f5-9f8a-4266-9219-8e2c230ca2e7/workflows/5bcb4c8c-ff30-495c-85f5-08a0e5d5940a/status_badge2.svg?branch=master)](https://app-staging.nevercode.io/#/project/22a968f5-9f8a-4266-9219-8e2c230ca2e7/workflow/5bcb4c8c-ff30-495c-85f5-08a0e5d5940a/latestBuild?branch=master)
+[![Nevercode build status](http://127.0.0.1:8000/api/projects/506bf530-9589-4237-8024-c02748a57896/workflows/b5753d53-2ec7-47f3-a564-75eded20395b/status_badge.svg?branch=gradle4)](http://127.0.0.1:8000/index.html#/project/506bf530-9589-4237-8024-c02748a57896/workflow/b5753d53-2ec7-47f3-a564-75eded20395b/latestBuild?branch=gradle4)
