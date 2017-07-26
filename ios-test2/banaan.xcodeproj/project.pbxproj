@@ -138,6 +138,7 @@
 				387029471DE479500008D573 /* Sources */,
 				387029481DE479500008D573 /* Frameworks */,
 				387029491DE479500008D573 /* Resources */,
+				38B09D2C1F28853C00024781 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -259,6 +260,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B09D2C1F28853C00024781 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -x\n\nDSYM_INFO_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\nbuildNumber=$NEVERCODE_BUILD_NUMBER\nstringLength=${#buildNumber}\n\nif [ $stringLength -ne 0 ]; then\n    echo \"Updating build number to $buildNumber\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n    if [ -f \"$DSYM_INFO_PLIST\" ]; then\n        /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$DSYM_INFO_PLIST\"\n    fi\nelse\n    echo \"Missing build number, skip updating\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		387029471DE479500008D573 /* Sources */ = {
