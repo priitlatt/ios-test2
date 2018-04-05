@@ -10,7 +10,7 @@ class iOSTests(unittest.TestCase):
         desired_caps['platformName'] = 'iOS'
         desired_caps['platformVersion'] = '11.2'
         desired_caps['deviceName'] = 'iPhone Simulator'
-        desired_caps['app'] = os.path.join(os.environ.get("NEVERCODE_SYMROOT"), "Debug-iphonesimulator/banaan-ios.app")
+        desired_caps['app'] = os.path.join(os.environ.get("NEVERCODE_SYMROOT"), "Debug-iphonesimulator/banaan.app")
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     def tearDown(self):
