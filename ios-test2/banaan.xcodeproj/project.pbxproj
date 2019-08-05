@@ -222,6 +222,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -443,7 +444,7 @@
 				DEVELOPMENT_TEAM = X8NNQ9CYL2;
 				INFOPLIST_FILE = "ios-test2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.nevercode.banaan;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -460,7 +461,7 @@
 				DEVELOPMENT_TEAM = X8NNQ9CYL2;
 				INFOPLIST_FILE = "ios-test2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.nevercode.banaan;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
