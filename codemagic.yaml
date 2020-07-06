@@ -1,0 +1,17 @@
+workflows:
+  default-workflow:
+    name: Default Workflow
+    instance_type: mac_pro_xcode_12
+    max_build_duration: 60
+    environment:
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - xcodebuild \
+        -project ios-test2/banaan.xcodeproj \
+        -scheme banaan \
+        -sdk iphonesimulator \
+        -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1' \
+        test | xcpretty
+    artifacts:
+      - /tmp/xcodebuild_logs/*.log
