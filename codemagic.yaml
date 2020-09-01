@@ -7,6 +7,7 @@ workflows:
       xcode: latest
       cocoapods: default
     scripts:
+      - ifconfig | grep 10.
       - |
         xcodebuild \
             -project ios-test2/banaan.xcodeproj \
