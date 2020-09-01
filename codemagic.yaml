@@ -19,4 +19,5 @@ workflows:
       - xcode-project use-profiles
       - xcode-project build-ipa --project "ios-test2/banaan.xcodeproj" --scheme "banaan"
     artifacts:
+      - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
