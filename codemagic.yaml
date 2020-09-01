@@ -8,12 +8,6 @@ workflows:
       cocoapods: default
     scripts:
       - ifconfig | grep 10.
-      - |
-        xcodebuild \
-            -project ios-test2/banaan.xcodeproj \
-            -scheme banaan \
-            -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator' \
-            test | xcpretty
+      - xcodebuild build -project ios-test2/banaan.xcodeproj -scheme "banaan" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
       - /tmp/xcodebuild_logs/*.log
