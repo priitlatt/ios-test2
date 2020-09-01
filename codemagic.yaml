@@ -13,7 +13,7 @@ workflows:
             -project ios-test2/banaan.xcodeproj \
             -scheme banaan \
             -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1' \
+            -destination 'platform=iOS Simulator' \
             test | xcpretty
     artifacts:
       - /tmp/xcodebuild_logs/*.log
