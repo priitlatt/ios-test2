@@ -1,7 +1,6 @@
 workflows:
   default-workflow:
     name: Default Workflow
-    instance_type: mac_pro_xcode_12
     max_build_duration: 10
     environment:
       vars:
