@@ -47,6 +47,8 @@ workflows:
           include: true
           source: true
     scripts:
+      - ifconfig
+      - sleep 100
       - keychain initialize
       - app-store-connect fetch-signing-files "io.codemagic.banaan.Clip" --type IOS_APP_DEVELOPMENT --create
       - keychain add-certificates
