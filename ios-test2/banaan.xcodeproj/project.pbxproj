@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,15 @@
 		387029591DE479500008D573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387029571DE479500008D573 /* LaunchScreen.storyboard */; };
 		387029641DE479500008D573 /* banaanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387029631DE479500008D573 /* banaanTests.swift */; };
 		3870296F1DE479500008D573 /* banaanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870296E1DE479500008D573 /* banaanUITests.swift */; };
+		38771436252C746700F5A86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38771435252C746700F5A86D /* AppDelegate.swift */; };
+		38771438252C746800F5A86D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38771437252C746800F5A86D /* SceneDelegate.swift */; };
+		3877143A252C746800F5A86D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38771439252C746800F5A86D /* ViewController.swift */; };
+		3877143D252C746800F5A86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3877143B252C746800F5A86D /* Main.storyboard */; };
+		3877143F252C746900F5A86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3877143E252C746900F5A86D /* Assets.xcassets */; };
+		38771442252C746900F5A86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38771440252C746900F5A86D /* LaunchScreen.storyboard */; };
+		3877144E252C746A00F5A86D /* BanaanClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877144D252C746A00F5A86D /* BanaanClipTests.swift */; };
+		38771459252C746A00F5A86D /* BanaanClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38771458252C746A00F5A86D /* BanaanClipUITests.swift */; };
+		3877145D252C746A00F5A86D /* BanaanClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 38771433252C746700F5A86D /* BanaanClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +40,42 @@
 			remoteGlobalIDString = 3870294A1DE479500008D573;
 			remoteInfo = "ios-test2";
 		};
+		3877144A252C746A00F5A86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387029431DE479500008D573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38771432252C746700F5A86D;
+			remoteInfo = BanaanClip;
+		};
+		38771455252C746A00F5A86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387029431DE479500008D573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38771432252C746700F5A86D;
+			remoteInfo = BanaanClip;
+		};
+		3877145B252C746A00F5A86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387029431DE479500008D573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38771432252C746700F5A86D;
+			remoteInfo = BanaanClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3877145E252C746A00F5A86D /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				3877145D252C746A00F5A86D /* BanaanClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3870294B1DE479500008D573 /* banaan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banaan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +91,21 @@
 		3870296A1DE479500008D573 /* banaanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banaanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3870296E1DE479500008D573 /* banaanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = banaanUITests.swift; sourceTree = "<group>"; };
 		387029701DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38771433252C746700F5A86D /* BanaanClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanaanClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38771435252C746700F5A86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38771437252C746800F5A86D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38771439252C746800F5A86D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3877143C252C746800F5A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3877143E252C746900F5A86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38771441252C746900F5A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38771443252C746900F5A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38771444252C746900F5A86D /* BanaanClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BanaanClip.entitlements; sourceTree = "<group>"; };
+		38771449252C746A00F5A86D /* BanaanClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanaanClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3877144D252C746A00F5A86D /* BanaanClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanaanClipTests.swift; sourceTree = "<group>"; };
+		3877144F252C746A00F5A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38771454252C746A00F5A86D /* BanaanClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanaanClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38771458252C746A00F5A86D /* BanaanClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanaanClipUITests.swift; sourceTree = "<group>"; };
+		3877145A252C746A00F5A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +130,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38771430252C746700F5A86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38771446252C746A00F5A86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38771451252C746A00F5A86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +160,9 @@
 				3870294D1DE479500008D573 /* banaan */,
 				387029621DE479500008D573 /* banaanTests */,
 				3870296D1DE479500008D573 /* banaanUITests */,
+				38771434252C746700F5A86D /* BanaanClip */,
+				3877144C252C746A00F5A86D /* BanaanClipTests */,
+				38771457252C746A00F5A86D /* BanaanClipUITests */,
 				3870294C1DE479500008D573 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +173,9 @@
 				3870294B1DE479500008D573 /* banaan.app */,
 				3870295F1DE479500008D573 /* banaanTests.xctest */,
 				3870296A1DE479500008D573 /* banaanUITests.xctest */,
+				38771433252C746700F5A86D /* BanaanClip.app */,
+				38771449252C746A00F5A86D /* BanaanClipTests.xctest */,
+				38771454252C746A00F5A86D /* BanaanClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +214,39 @@
 			path = "ios-test2UITests";
 			sourceTree = "<group>";
 		};
+		38771434252C746700F5A86D /* BanaanClip */ = {
+			isa = PBXGroup;
+			children = (
+				38771435252C746700F5A86D /* AppDelegate.swift */,
+				38771437252C746800F5A86D /* SceneDelegate.swift */,
+				38771439252C746800F5A86D /* ViewController.swift */,
+				3877143B252C746800F5A86D /* Main.storyboard */,
+				3877143E252C746900F5A86D /* Assets.xcassets */,
+				38771440252C746900F5A86D /* LaunchScreen.storyboard */,
+				38771443252C746900F5A86D /* Info.plist */,
+				38771444252C746900F5A86D /* BanaanClip.entitlements */,
+			);
+			path = BanaanClip;
+			sourceTree = "<group>";
+		};
+		3877144C252C746A00F5A86D /* BanaanClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				3877144D252C746A00F5A86D /* BanaanClipTests.swift */,
+				3877144F252C746A00F5A86D /* Info.plist */,
+			);
+			path = BanaanClipTests;
+			sourceTree = "<group>";
+		};
+		38771457252C746A00F5A86D /* BanaanClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38771458252C746A00F5A86D /* BanaanClipUITests.swift */,
+				3877145A252C746A00F5A86D /* Info.plist */,
+			);
+			path = BanaanClipUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +258,12 @@
 				387029481DE479500008D573 /* Frameworks */,
 				387029491DE479500008D573 /* Resources */,
 				38B09D2C1F28853C00024781 /* ShellScript */,
+				3877145E252C746A00F5A86D /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3877145C252C746A00F5A86D /* PBXTargetDependency */,
 			);
 			name = banaan;
 			productName = "ios-test2";
@@ -185,15 +306,68 @@
 			productReference = 3870296A1DE479500008D573 /* banaanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		38771432252C746700F5A86D /* BanaanClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38771465252C746A00F5A86D /* Build configuration list for PBXNativeTarget "BanaanClip" */;
+			buildPhases = (
+				3877142F252C746700F5A86D /* Sources */,
+				38771430252C746700F5A86D /* Frameworks */,
+				38771431252C746700F5A86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanaanClip;
+			productName = BanaanClip;
+			productReference = 38771433252C746700F5A86D /* BanaanClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		38771448252C746A00F5A86D /* BanaanClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38771466252C746A00F5A86D /* Build configuration list for PBXNativeTarget "BanaanClipTests" */;
+			buildPhases = (
+				38771445252C746A00F5A86D /* Sources */,
+				38771446252C746A00F5A86D /* Frameworks */,
+				38771447252C746A00F5A86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3877144B252C746A00F5A86D /* PBXTargetDependency */,
+			);
+			name = BanaanClipTests;
+			productName = BanaanClipTests;
+			productReference = 38771449252C746A00F5A86D /* BanaanClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38771453252C746A00F5A86D /* BanaanClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38771467252C746A00F5A86D /* Build configuration list for PBXNativeTarget "BanaanClipUITests" */;
+			buildPhases = (
+				38771450252C746A00F5A86D /* Sources */,
+				38771451252C746A00F5A86D /* Frameworks */,
+				38771452252C746A00F5A86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38771456252C746A00F5A86D /* PBXTargetDependency */,
+			);
+			name = BanaanClipUITests;
+			productName = BanaanClipUITests;
+			productReference = 38771454252C746A00F5A86D /* BanaanClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		387029431DE479500008D573 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = GreenhouseCI;
+				ORGANIZATIONNAME = Nevercode;
 				TargetAttributes = {
 					3870294A1DE479500008D573 = {
 						CreatedOnToolsVersion = 8.1;
@@ -215,10 +389,21 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3870294A1DE479500008D573;
 					};
+					38771432252C746700F5A86D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					38771448252C746A00F5A86D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 38771432252C746700F5A86D;
+					};
+					38771453252C746A00F5A86D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 38771432252C746700F5A86D;
+					};
 				};
 			};
 			buildConfigurationList = 387029461DE479500008D573 /* Build configuration list for PBXProject "banaan" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,6 +418,9 @@
 				3870294A1DE479500008D573 /* banaan */,
 				3870295E1DE479500008D573 /* banaanTests */,
 				387029691DE479500008D573 /* banaanUITests */,
+				38771432252C746700F5A86D /* BanaanClip */,
+				38771448252C746A00F5A86D /* BanaanClipTests */,
+				38771453252C746A00F5A86D /* BanaanClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +450,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38771431252C746700F5A86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38771442252C746900F5A86D /* LaunchScreen.storyboard in Resources */,
+				3877143F252C746900F5A86D /* Assets.xcassets in Resources */,
+				3877143D252C746800F5A86D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38771447252C746A00F5A86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38771452252C746A00F5A86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -276,7 +488,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -x\n\nDSYM_INFO_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\nbuildNumber=$NEVERCODE_BUILD_NUMBER\nstringLength=${#buildNumber}\n\nif [ $stringLength -ne 0 ]; then\n    echo \"Updating build number to $buildNumber\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n    if [ -f \"$DSYM_INFO_PLIST\" ]; then\n        /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$DSYM_INFO_PLIST\"\n    fi\nelse\n    echo \"Missing build number, skip updating\"\nfi";
+			shellScript = "set -x\n\nDSYM_INFO_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\nbuildNumber=$NEVERCODE_BUILD_NUMBER\nstringLength=${#buildNumber}\n\nif [ $stringLength -ne 0 ]; then\n    echo \"Updating build number to $buildNumber\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n    if [ -f \"$DSYM_INFO_PLIST\" ]; then\n        /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$DSYM_INFO_PLIST\"\n    fi\nelse\n    echo \"Missing build number, skip updating\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -306,6 +518,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3877142F252C746700F5A86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3877143A252C746800F5A86D /* ViewController.swift in Sources */,
+				38771436252C746700F5A86D /* AppDelegate.swift in Sources */,
+				38771438252C746800F5A86D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38771445252C746A00F5A86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3877144E252C746A00F5A86D /* BanaanClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38771450252C746A00F5A86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38771459252C746A00F5A86D /* BanaanClipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -318,6 +556,21 @@
 			isa = PBXTargetDependency;
 			target = 3870294A1DE479500008D573 /* banaan */;
 			targetProxy = 3870296B1DE479500008D573 /* PBXContainerItemProxy */;
+		};
+		3877144B252C746A00F5A86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38771432252C746700F5A86D /* BanaanClip */;
+			targetProxy = 3877144A252C746A00F5A86D /* PBXContainerItemProxy */;
+		};
+		38771456252C746A00F5A86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38771432252C746700F5A86D /* BanaanClip */;
+			targetProxy = 38771455252C746A00F5A86D /* PBXContainerItemProxy */;
+		};
+		3877145C252C746A00F5A86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38771432252C746700F5A86D /* BanaanClip */;
+			targetProxy = 3877145B252C746A00F5A86D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -334,6 +587,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				387029581DE479500008D573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3877143B252C746800F5A86D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3877143C252C746800F5A86D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38771440252C746900F5A86D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38771441252C746900F5A86D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -448,7 +717,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -457,12 +727,16 @@
 		387029741DE479500008D573 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8NNQ9CYL2;
 				INFOPLIST_FILE = "ios-test2/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -473,12 +747,16 @@
 		387029751DE479500008D573 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8NNQ9CYL2;
 				INFOPLIST_FILE = "ios-test2/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -493,7 +771,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = T44NESVEFN;
 				INFOPLIST_FILE = "ios-test2Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -508,7 +790,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = T44NESVEFN;
 				INFOPLIST_FILE = "ios-test2Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -522,7 +808,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = T44NESVEFN;
 				INFOPLIST_FILE = "ios-test2UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -537,12 +827,191 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = T44NESVEFN;
 				INFOPLIST_FILE = "ios-test2UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = banaan;
+			};
+			name = Release;
+		};
+		3877145F252C746A00F5A86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = BanaanClip/BanaanClip.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BanaanClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38771460252C746A00F5A86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = BanaanClip/BanaanClip.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BanaanClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38771461252C746A00F5A86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BanaanClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan.BanaanClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanaanClip.app/BanaanClip";
+			};
+			name = Debug;
+		};
+		38771462252C746A00F5A86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BanaanClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan.BanaanClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanaanClip.app/BanaanClip";
+			};
+			name = Release;
+		};
+		38771463252C746A00F5A86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BanaanClipUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan.BanaanClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BanaanClip;
+			};
+			name = Debug;
+		};
+		38771464252C746A00F5A86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BanaanClipUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.banaan.BanaanClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BanaanClip;
 			};
 			name = Release;
 		};
@@ -581,6 +1050,33 @@
 			buildConfigurations = (
 				3870297A1DE479500008D573 /* Debug */,
 				3870297B1DE479500008D573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38771465252C746A00F5A86D /* Build configuration list for PBXNativeTarget "BanaanClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3877145F252C746A00F5A86D /* Debug */,
+				38771460252C746A00F5A86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38771466252C746A00F5A86D /* Build configuration list for PBXNativeTarget "BanaanClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38771461252C746A00F5A86D /* Debug */,
+				38771462252C746A00F5A86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38771467252C746A00F5A86D /* Build configuration list for PBXNativeTarget "BanaanClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38771463252C746A00F5A86D /* Debug */,
+				38771464252C746A00F5A86D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
