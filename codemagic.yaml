@@ -53,5 +53,6 @@ workflows:
       - xcode-project use-profiles
       - xcode-project build-ipa --project "ios-test2/banaan.xcodeproj" --scheme "BanaanClip"
     artifacts:
+      - build/ios/xcarchive/*.xcarchive
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
