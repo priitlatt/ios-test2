@@ -26,8 +26,6 @@ workflows:
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
-
-workflows:
   build-clip:
     name: Build Clip
     max_build_duration: 10
