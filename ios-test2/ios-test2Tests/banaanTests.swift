@@ -29,7 +29,15 @@ class banaanTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testSkippedExample() throws {
+        throw XCTSkip("This test is skipped")
+    }
 
+    func testDisabledExample() {
+        XCTAssert(true)
+    }
+    
     func testFailExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
