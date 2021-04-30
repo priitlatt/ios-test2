@@ -24,3 +24,16 @@ workflows:
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+  test-app:
+    name: Build App
+    instance_type: mac_pro
+    max_build_duration: 10
+    environment:
+      xcode: 12.4
+      cocoapods: default
+    scripts:
+      - name: Run tests
+        script: xcode-project run-tests --project "ios-test2/banaan.xcodeproj" --scheme "banaan"
+        test_report: build/ios/test/*.xml
+    artifacts:
+      - /tmp/xcodebuild_logs/*.log
