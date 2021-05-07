@@ -25,7 +25,7 @@ workflows:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
   test-app:
-    name: Build App
+    name: Test App
     instance_type: mac_pro
     max_build_duration: 10
     environment:
