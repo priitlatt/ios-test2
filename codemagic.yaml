@@ -15,7 +15,7 @@ workflows:
       cocoapods: default
     scripts:
       - keychain initialize
-      - app-store-connect fetch-signing-files "io.codemagic.banaan" --type IOS_APP_DEVELOPMENT --create
+      - app-store-connect fetch-signing-files "io.codemagic.banaan" --type IOS_APP_STORE --create
       - keychain add-certificates
       - xcode-project use-profiles
       - script: agvtool new-version -all "1.0.$BUILD_NUMBER"
