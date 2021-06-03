@@ -32,16 +32,6 @@ workflows:
       app_store_connect:
         apple_id: $APPLE_ID
         password: $APP_SPECIFIC_PASSWORD
-  test-app:
-    name: Test App
-    instance_type: mac_pro
-    max_build_duration: 10
-    environment:
-      xcode: 12.5
-      cocoapods: default
-    scripts:
-      - name: Run tests
-        script: xcode-project run-tests --project "ios-test2/banaan.xcodeproj" --scheme "banaan" --device "iOS 14.0 iPhone 11"
-        test_report: build/ios/test/*.xml
-    artifacts:
-      - /tmp/xcodebuild_logs/*.log
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
