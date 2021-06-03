@@ -29,6 +29,9 @@ workflows:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
     publishing:
+#       google_play:
+#         track: alpha
+#         credentials: invalid-json
       app_store_connect:
         submit_to_testflight: false
         apple_id: $APPLE_ID
@@ -36,6 +39,3 @@ workflows:
 #         api_key: $APP_STORE_CONNECT_PRIVATE_KEY
 #         key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
 #         issuer_id: $APP_STORE_CONNECT_ISSUER_ID
-      google_play:
-        track: alpha
-        credentials: invalid-json
