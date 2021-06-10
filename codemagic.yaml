@@ -28,11 +28,7 @@ workflows:
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
-    publishing:
-#       google_play:
-#         track: alpha
-#         credentials: invalid-json
-
+#     publishing:
 #       app_store_connect:
 #         submit_to_testflight: true
 # #         apple_id: $APPLE_ID
