@@ -3,7 +3,7 @@ workflows:
     name: Build App
 #     instance_type: mac_pro
 #     instance_type: mac_mini
-    max_build_duration: 10
+    max_build_duration: 30
     environment:
       vars:
         APP_STORE_CONNECT_ISSUER_ID: 7d812fe2-8abd-47ca-9d27-3ed7e62d7b6d
