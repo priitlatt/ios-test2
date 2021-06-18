@@ -15,7 +15,8 @@ workflows:
       xcode: 12.5
       cocoapods: default
     scripts:
-      - pip3 install --upgrade https://github.com/codemagic-ci-cd/cli-tools/archive/refs/heads/feature/testflight-submit-configure-max-wait-timeout.zip
+#       - pip3 install --upgrade https://github.com/codemagic-ci-cd/cli-tools/archive/refs/heads/feature/testflight-submit-configure-max-wait-timeout.zip
+      - pip3 install --upgrade https://github.com/codemagic-ci-cd/cli-tools/archive/refs/heads/feature/asc-publish-check-test-info-presence.zip
       - keychain initialize
       - app-store-connect fetch-signing-files "io.codemagic.banaan" --type IOS_APP_STORE --create
       - keychain add-certificates
