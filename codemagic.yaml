@@ -14,8 +14,6 @@ workflows:
       xcode: 13.0
       cocoapods: default
     scripts:
-#       - python3 -m pip install --upgrade https://github.com/codemagic-ci-cd/cli-tools/releases/download/v0.9.0/codemagic_cli_tools-0.9.0-py3-none-any.whl
-      - python3 -m pip install --upgrade https://github.com/codemagic-ci-cd/cli-tools/archive/refs/heads/bugfix/keychain-inaccessible-by-xcode.zip
       - keychain --version
       - keychain initialize
       - app-store-connect fetch-signing-files "io.codemagic.banaan" --type IOS_APP_STORE --create
