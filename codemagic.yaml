@@ -25,7 +25,9 @@ workflows:
       - script: agvtool new-version -all "1.0.$BUILD_NUMBER"
         working_directory: ios-test2
       - name: Build ipa
-        script: xcode-project build-ipa --project "ios-test2/banaan.xcodeproj" --scheme "banaan"
+        script: |
+          keychain unlock
+          xcode-project build-ipa --project "ios-test2/banaan.xcodeproj" --scheme "banaan"
       # - name: Run tests
       #   script: xcode-project run-tests --project "ios-test2/banaan.xcodeproj" --scheme "banaan" --graceful-exit
       #   test_report: build/ios/test/*.xml
